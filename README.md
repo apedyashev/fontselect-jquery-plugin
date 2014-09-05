@@ -1,13 +1,16 @@
 # Fontselect jQuery Plugin
 
+My fork of Tom Moor's [plugin](https://github.com/tommoor/fontselect-jquery-plugin) - added WebFont.load
+
+
 A font selector to choose from fonts available as part of the Google Web Fonts api. 
 
 Let users easily select and preview a font from Google's large range of free fonts.
 
 
 ## Documentation
-
-To create a font selector simply run the plugin on a standard html input element.
+1. Include jQuery, jQuery UI, and the [Google WebFont loader](http://code.google.com/apis/webfonts/docs/webfont_loader.html) on your page.
+2. To create a font selector simply run the plugin on a standard html input element.
 
 ### How to use
 

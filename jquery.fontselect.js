@@ -1,6 +1,7 @@
 /*
  * jQuery.fontselect - A font selector for the Google Web Fonts api
  * Tom Moor, http://tommoor.com
+ * Alexey Pedyashev, added WebFont.load
  * Copyright (c) 2011 Tom Moor
  * MIT Licensed
  * @version 0.1
@@ -230,6 +231,13 @@
       "Yanone+Kaffeesatz:700",
       "Yeseva+One",
       "Zeyada"];
+
+      WebFont.load({
+          google: {
+              families: fonts
+          }
+      });
+    
 
     var settings = {
       style: 'font-select',

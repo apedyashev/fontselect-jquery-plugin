@@ -232,6 +232,9 @@
       "Yeseva+One",
       "Zeyada"];
 
+      if(options && options.fonts){
+        fonts = options.fonts;
+      }
       WebFont.load({
           google: {
               families: fonts
@@ -394,8 +397,8 @@
         var link = this.options.api + font;
       
         if ($("link[href*='" + font + "']").length === 0){
-			$('link:last').after('<link href="' + link + '" rel="stylesheet" type="text/css">');
-		}
+  			 $('link:last').after('<link href="' + link + '" rel="stylesheet" type="text/css">');
+  		  }
       };
     
       return Fontselect;
